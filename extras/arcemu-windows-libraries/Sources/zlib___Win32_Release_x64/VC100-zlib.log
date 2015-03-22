@@ -1,0 +1,44 @@
+﻿Build started 1/26/2015 5:10:17 AM.
+Project "C:\Users\WooW\Desktop\00_00\arctic\trunk\extras\arcemu-windows-libraries\Sources\VC100-zlib.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating ".\zlib___Win32_Release_x64\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+MakeDirsForCl:
+  Creating directory "C:\Users\WooW\Desktop\00_00\arctic\trunk\extras\arcemu-windows-libraries\Sources\.\zlib___Win32_Release".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GL /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _MBCS /GF /Gm- /EHsc /MD /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\zlib___Win32_Release_x64\\" /Fd".\zlib___Win32_Release_x64\vc100.pdb" /Gd /TC /errorReport:prompt zlib\adler32.c zlib\compress.c zlib\crc32.c zlib\deflate.c zlib\example.c zlib\gzio.c zlib\infback.c zlib\inffast.c zlib\inflate.c zlib\inftrees.c zlib\trees.c zlib\uncompr.c zlib\zutil.c
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  example.c
+  gzio.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\VC\lib\zlib_release_x64.lib" /NOLOGO /LTCG .\zlib___Win32_Release_x64\adler32.obj
+  .\zlib___Win32_Release_x64\compress.obj
+  .\zlib___Win32_Release_x64\crc32.obj
+  .\zlib___Win32_Release_x64\deflate.obj
+  .\zlib___Win32_Release_x64\example.obj
+  .\zlib___Win32_Release_x64\gzio.obj
+  .\zlib___Win32_Release_x64\infback.obj
+  .\zlib___Win32_Release_x64\inffast.obj
+  .\zlib___Win32_Release_x64\inflate.obj
+  .\zlib___Win32_Release_x64\inftrees.obj
+  .\zlib___Win32_Release_x64\trees.obj
+  .\zlib___Win32_Release_x64\uncompr.obj
+  .\zlib___Win32_Release_x64\zutil.obj
+  VC100-zlib.vcxproj -> C:\Users\WooW\Desktop\00_00\arctic\trunk\extras\arcemu-windows-libraries\Sources\..\VC\lib\zlib_release_x64.lib
+FinalizeBuildStatus:
+  Deleting file ".\zlib___Win32_Release_x64\zlib.unsuccessfulbuild".
+  Touching ".\zlib___Win32_Release_x64\zlib.lastbuildstate".
+Done Building Project "C:\Users\WooW\Desktop\00_00\arctic\trunk\extras\arcemu-windows-libraries\Sources\VC100-zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.27
